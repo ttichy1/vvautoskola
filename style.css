@@ -229,7 +229,7 @@ h3 {
 .hero-wm {
   position: absolute;
   right: -.03em;
-  bottom: -.1em;
+  bottom: 15%;
   font-size: clamp(8rem, 22vw, 26rem);
   font-weight: 900;
   letter-spacing: -.06em;
@@ -498,24 +498,13 @@ h3 {
 
 /* ══ VÝCVIK + CENÍK ══════════════════════════════════ */
 .sec-vycvik-cenik {
-  display: grid;
-  grid-template-columns: 1fr;
   border-bottom: 1px solid var(--border);
-}
-
-@media (min-width: 900px) {
-  .sec-vycvik-cenik { grid-template-columns: 1fr 1fr; }
 }
 
 .sec-vycvik {
   padding: 5rem 0;
   background: var(--warm);
-}
-
-@media (min-width: 900px) {
-  .sec-vycvik { border-right: 1px solid var(--border); }
-  .sec-vycvik .container { padding-right: 2.5rem; }
-  .sec-cenik .container { padding-left: 2.5rem; }
+  border-bottom: 1px solid var(--border);
 }
 
 .sec-cenik { padding: 5rem 0; }
